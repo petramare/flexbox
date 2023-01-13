@@ -1,0 +1,59 @@
+html{
+    box-sizing: border-box;
+    }
+    *,
+    *:before,
+    *:after{
+    box-sizing: inherit;
+    }
+
+    body {
+        height: 1000px;
+    }
+
+    .layout{
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        background-color: bisque;
+    }
+
+    .boxes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 70%;
+        border-radius: 0px;
+        align-content:center;
+        
+
+        }
+
+     .boxes__box{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 12rem;
+        width: 27%;
+        background: #42ade2;
+        margin: 3%;
+        align-content: center;
+        
+     }   
+      
+     
+     .sidebar {
+        display: flex;
+        background-color: lightgray;
+        width: 20%;
+        height: 90%;
+       flex-direction: column ;
+       justify-content: flex-start;
+       flex-wrap: wrap;
+       align-content: center;
+       margin:auto;
+      }
